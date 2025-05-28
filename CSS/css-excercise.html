@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS excercise</title>
+    <style>
+        body {
+            background-color: rgb(223, 242, 235);
+        }
+
+        h1, h2 {
+            color: rgb(74, 98, 138);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            color: rgb(63, 146, 193);
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .paragraph1{
+            font-size: medium;
+        }
+        .paragraph2{
+            font-size:small;
+            font-weight: bold;
+        }
+        .paragraph3{
+            font-size: large;
+            font-style: italic;
+        }
+        div {
+            border: solid;
+        }
+        ul {
+            list-style-type: none;
+            display:flex;
+        }
+        .nav-elements{
+            width: 70px;
+            text-align: center;
+            background-color: rgb(185, 229, 232);
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        .nav {
+            background-color: rgb(122, 178, 211);
+            height: 95px;
+            max-width: 50%;
+            box-shadow: 5px 10px 10px;
+        }
+        div.nav-elements:hover{
+            background-color: rgb(58, 199, 209);
+            transition: 0.5s;
+        }
+        .nav-ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        .card-div {
+            background-color: rgb(122, 178, 211);
+            max-width: 700px;
+            box-shadow: 5px 10px 10px;
+        }
+        .card-name {
+            position: relative;
+            left: 20px;
+        }
+        .pfp {
+            position: relative;
+            left: 15px;
+            border: solid;
+        }
+        .card-bio {
+            position: relative;
+            left: 210px;
+            bottom: 157px;
+            width: 400px;
+            background-color:  rgb(185, 229, 232);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Text</h1>
+    <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis est libero mollitia optio error ullam at,
+        repellendus ipsum qui vitae velit consequuntur voluptas dignissimos commodi dolore laborum, eos blanditiis
+        doloremque.</p>
+    <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit illum ea libero, molestias atque architecto
+        cumque. Tenetur quidem natus nesciunt laborum, qui facere atque vel, provident quos ratione quae illum.</p>
+    <p class="paragraph3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptatibus quos ex optio aperiam. Delectus
+        ex dolor voluptates quidem? Ipsa adipisci, deserunt corrupti provident eaque itaque reprehenderit error pariatur
+        minima?</p>
+
+    <div class="nav">
+        <ul class="nav-ul">
+            <li>
+                <div class="nav-elements"><p>Home</p></div>
+            </li>
+            <li>
+                <div class="nav-elements"><p>About</p></div>
+            </li>
+            <li>
+                <div class="nav-elements"><p>Contacts</p></div>
+            </li>
+        </ul>
+    </div><br><br>
+
+    <div class="card-div">
+        <h2 class="card-name">Tomáš Veverka</h2>
+        <img  class="pfp" src="../HTML/image.png" alt="" width="150px">
+        <div class="card-bio">
+            <p style="padding: 5px">Je mi 17 let, rád hraji fotbal, na klavír a chtěl bych dělat bojový sport</p>
+        </div>
+    </div>
+</body>
+
+</html>
