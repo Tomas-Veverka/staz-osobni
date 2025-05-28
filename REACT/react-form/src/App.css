@@ -1,0 +1,14 @@
+.submit{
+  border: solid 1px white;
+  padding: 2px;
+}
+body {
+  justify-content: center;
+}
+.app{
+  display: flex;
+  justify-content: center;
+}
+.form{
+  justify-content: center;
+}
